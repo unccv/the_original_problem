@@ -37,6 +37,20 @@ This repository requires the installation of a few extra packages, you can insta
 pip install -r requirements.txt
 ~~~
 
+(Optional) [jupyterthemes](https://github.com/dunovank/jupyter-themes) can be nice when presenting notebooks, as it offers some cleaner visual themes than the stock notebook, and makes it easy to adjust the default font size for code, markdown, etc. You can install with pip: 
+
+~~~
+pip install jupyterthemese
+~~~
+
+Recommend jupyter them for presenting these notebook (Type into terminal before launching notebook):
+
+~~~
+
+jt -t grade3 -cellw=90% -fs=20 -tfs=20 -ofs=20
+~~~
+
+
 
 ### Downloading Data
 For larger files such as data and videos, I've provided download scripts to download these files from welchlabs.io. These files can be pretty big, so you may want to grab a cup of your favorite beverage to enjoy while downloading. The script can be run from within the jupyter notebooks or from the terminal:
@@ -44,6 +58,8 @@ For larger files such as data and videos, I've provided download scripts to down
 ~~~
 python util/get_and_unpack.py -url http://www.welchlabs.io/unccv/the_original_problem/data/data.zip
 ~~~
+
+Alternatively, you can download [download data manually](http://www.welchlabs.io/unccv/the_original_problem/data/data.zip), unzip and place in this directory. 
 
 
 ### Downloading Videos
@@ -54,6 +70,7 @@ Run the script below or call it from the notebooks:
 python util/get_and_unpack.py -url http://www.welchlabs.io/unccv/the_original_problem/videos.zip
 ~~~
 
+Alternatively, you can download [download videos manually](http://www.welchlabs.io/unccv/the_original_problem/data/data.zip), unzip and place in this directory. 
 
 
 ## Programming Challenge

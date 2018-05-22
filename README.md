@@ -70,7 +70,7 @@ Run the script below or call it from the notebooks:
 python util/get_and_unpack.py -url http://www.welchlabs.io/unccv/the_original_problem/videos.zip
 ~~~
 
-Alternatively, you can download [download videos manually](http://www.welchlabs.io/unccv/the_original_problem/data/data.zip), unzip and place in this directory. 
+Alternatively, you can download [download videos manually](http://www.welchlabs.io/unccv/the_original_problem/videos.zip), unzip and place in this directory. 
 
 
 ## Programming Challenge

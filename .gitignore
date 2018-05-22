@@ -15,11 +15,12 @@
 
 # Notebook Checkpoints #
 #######################
-.ipynb_checkpoints
+*.ipynb_checkpoints
 
 # Complied python modules #
 ##########################
-.pyc
+*.pyc
+__pycache__
 
 # Larger Files downloaded from elsewhere #
 #########################################

@@ -37,6 +37,8 @@ pip install -r requirements.txt
 
 
 ### Downloading Data
+For larger files such as data and videos, I've provided download scripts to download these files from welchlabs.io. These files can be pretty big, so you may want to grab a cup of your favorite beverage to enjoy while downloading. The script can be run from within the jupyter notebooks or from the terminal:
+
 ~~~
 python util/get_and_unpack.py -url http://www.welchlabs.io/unccv/the_original_problem/data/data.zip
 ~~~
@@ -44,9 +46,13 @@ python util/get_and_unpack.py -url http://www.welchlabs.io/unccv/the_original_pr
 
 ### Downloading Videos
 
+Run the script below or call it from the notebooks:
 
-
+~~~
+python util/get_and_unpack.py -url http://www.welchlabs.io/unccv/the_original_problem/videos.zip
+~~~
 
 
 
 ## Programming Challenge
+

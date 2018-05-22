@@ -5,7 +5,7 @@
 ##
 ## ------------------------- ##
 
-import wget, argparse, zipfile
+import wget, argparse, zipfile, os
 
 def get_and_unpack(url):
 
@@ -18,6 +18,10 @@ def get_and_unpack(url):
 	zip_ref = zipfile.ZipFile(filename, 'r')
 	zip_ref.extractall()
 	zip_ref.close()
+
+	#Remove zip file
+	os.remove(filename)
+
 
 	print('\033[1m' + 'Done!' + '\033[0m')
 

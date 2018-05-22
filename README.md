@@ -36,9 +36,17 @@ pip install -r requirements.txt
 ~~~
 
 
+### Downloading Data
+~~~
+python util/get_and_unpack.py -url http://www.welchlabs.io/unccv/the_original_problem/data/data.zip
+~~~
+
+
 ### Downloading Videos
 
 
-### Downloading data
+
+
+
 
 ## Programming Challenge

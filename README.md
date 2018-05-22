@@ -46,8 +46,7 @@ pip install jupyterthemese
 Recommend jupyter them for presenting these notebook (Type into terminal before launching notebook):
 
 ~~~
-
-jt -t grade3 -cellw=90% -fs=20 -tfs=20 -ofs=20
+jt -t grade3 -cellw=90% -fs=20 -tfs=20 -ofs=20 -dfs=20
 ~~~
 
 

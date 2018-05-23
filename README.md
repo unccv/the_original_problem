@@ -19,8 +19,8 @@ The Python 3 [Anaconda Distribution](https://www.anaconda.com/download) is the e
 (Optional) You may want to create a virtual environment for this repository: 
 
 ~~~
-conda create -n cv python=3 
-source activate cv
+conda create -n cv python=3
+source activate cv            # or just 'activate cv' in Windows
 ~~~
 
 You'll need to install the jupyter notebook to run the notebooks:

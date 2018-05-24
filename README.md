@@ -96,9 +96,9 @@ This module includes a programming challenge. The challenge is designed to quick
 Following the progression set out the MIT the summer project, we'll start with easy images, and move to more difficult image with more complex backgrounds as we progress. For each difficulty level, we will compute the average accuracy of your classifier. We will then compute an average overall accuracy, weighting easier examples more: 
 
 ````
-overall_accuracy = 0.5*accuracy_easy \
-                 + 0.2*accuracy_medium_1 \
-                 + 0.2*accuracy_medium_2 \
+overall_accuracy = 0.5*accuracy_easy 
+                 + 0.2*accuracy_medium_1 
+                 + 0.2*accuracy_medium_2 
                  + 0.1*accuracy_hard 
 ````
 

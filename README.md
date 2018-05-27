@@ -14,8 +14,8 @@ This repository contains a programming challenge and jupyter notebooks. The prog
 
 | Section |   Notebook    | Recommended Reading/Viewing | Additional Reading/Viewing | Code Developed | 
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
-| 0       | The Original Problem | [The Summer Vision Project.pdf](summer_vision_project.pdf) | - | - |
-| 1       | Edges | [Machine perception of three-dimensional solids **Abstact and Pages 25-27**](roberts_thesis.pdf)| - | - |
+| 0       | The Original Problem | [The Summer Vision Project.pdf](papers/summer_vision_project.pdf) | - | - |
+| 1       | Edges | [Machine perception of three-dimensional solids **Abstact and Pages 25-27**](papers/roberts_thesis.pdf)| - | - |
 
 
 

@@ -29,7 +29,7 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
 | 0       | The Original Problem | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
 | 1       | A Little About Python and Jupyter | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
-| 2       | Edges | [**Only Abstact and Pages 25-27 **Machine perception of 3d solids**](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
+| 2       | Edges | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
 | 3       | Image Filtering | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | - |
 
 

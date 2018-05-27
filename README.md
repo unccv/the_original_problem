@@ -2,32 +2,40 @@
 
 ![](graphics/original_mit_crew-01.png)
 
-**Computer Vision** has a very interesting history. It's roots really go all the way back to the beginning of computing and **artifical intelligence.** 
+**Computer Vision** has a very interesting history. It's roots really go all the way back to the beginning of computing and **Artifical Intelligence.** In these early days, it was completely unknown just how easy or difficult it would be to recreate the function of the human visual system. A great example of this is the 1966 MIT Summer Vision Project. Marvin Minsky and Seymour Papert, co-directors of the MIT AI Labratory, begun the summer with some ambitious goals:
 
-To acheive this, we need to go back to the beginning. Not the very beginning, but pretty close. We need to go back to MIT in the summer of 1966 and visit the **Artifical Intelligence Group.**
+![](graphics/summer_project_abstract-01.png)
+
+
+Minsky and Papert assigned Gerald Sussman, an MIT undergraduate studunt as project lead, and setup specific goals for the group around recognizing specific objects in images, and seperating these objects from their backgrounds. 
+
+![](graphics/summer_project_goals-01.png)
+
+Just how hard is it to acheive the goals Minsky and Papert laid out? How has the field of computer vision advance since that summer? Are these tasks trivial now, 50+ years later? Do we understand how the human visual system works? Just how hard *is* computer vision and how far have we come?
+
 
 ## This Repository
 
-This repository contains a programming challenge and jupyter notebooks. The programming challenge is designed to very close to what 
+This repository is all about spending some time the with **the original problem** posed by Minsky and Papert. Working through this problem is a great way to begin learning **computer vision.** 
+
+![](graphics/brick_ball_cylinder_2.gif)
 
 
+The repository is broadly divided into two areas: notebooks and a programming challenge.
+
+## Notebooks
 
 | Section |   Notebook    | Recommended Reading/Viewing | Additional Reading/Viewing | Code Developed | 
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
 | 0       | The Original Problem | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
-| 1       | Edges | [**Only Abstact and Pages 25-27 **Machine perception of 3d solids**](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
-| 2 | A Little About Python and Jupyter | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
+| 1 | A Little About Python and Jupyter | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
+| 2       | Edges | [**Only Abstact and Pages 25-27 **Machine perception of 3d solids**](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
 | 3 | Image Filtering | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | - |
 
 
 
 
 ## Programming Challenge
-
-This module includes a programming challenge. The challenge is designed to quickly get you as close as possible to real computer vision problems, and is quite similar to what Minsky, Papert, and Sussman set out to do in 1966:
-
-![](graphics/summer_project_goals-01.png)
-
 
 ### Instructions
 

@@ -14,11 +14,7 @@ This repository contains a programming challenge and jupyter notebooks. The prog
 
 | Section |   Notebook    | Recommended Reading/Viewing | Additional Reading/Viewing | Code Developed | 
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
-| 0       
-| The Original Problem 
-| The Summer Vision Project.pdf](The Summer Vision Project.pdf)
-| - 
-| - 
+| 0       | The Original Problem | The Summer Vision Project.pdf](The Summer Vision Project.pdf) | - | - |
 | 1       
 | Edges 
 | Machine perception of three-dimensional solids 0 **Only Need to Read Abstact and Pages 25-27**.](https://dspace.mit.edu/bitstream/handle/1721.1/11589/33959125-MIT.pdf?sequence=2)

@@ -15,9 +15,9 @@ This repository contains a programming challenge and jupyter notebooks. The prog
 | Section |   Notebook    | Recommended Reading/Viewing | Additional Reading/Viewing | Code Developed | 
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
 | 0       | The Original Problem | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
-| 1       | Edges | [**Only Abstact and Pages 25-27**Machine perception of 3d solids ](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
+| 1       | Edges | [**Only Abstact and Pages 25-27 **Machine perception of 3d solids**](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
 | 2 | A Little About Python and Jupyter | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
-| 3 | Image Filtering 
+| 3 | Image Filtering | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | - |
 
 
 
@@ -73,8 +73,8 @@ The Python 3 [Anaconda Distribution](https://www.anaconda.com/download) is the e
 (Optional) You may want to create a virtual environment for this repository: 
 
 ~~~
-conda create -n cv python=3
-source activate cv            # or just 'activate cv' in Windows
+conda create -n cv python=3 
+source activate cv
 ~~~
 
 You'll need to install the jupyter notebook to run the notebooks:

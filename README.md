@@ -2,7 +2,7 @@
 
 ![](graphics/original_mit_crew-01.png)
 
-**Computer Vision** has a very interesting history. It's roots really go all the way back to the beginning of computing and **Artifical Intelligence.** In these early days, it was completely unknown just how easy or difficult it would be to recreate the function of the human visual system. A great example of this is the 1966 MIT Summer Vision Project. Marvin Minsky and Seymour Papert, co-directors of the MIT AI Labratory, begun the summer with some ambitious goals:
+**Computer Vision** has a very interesting history. It's roots really go all the way back to the beginning of computing and **Artifical Intelligence.** In these early days, it wasn unknown just how easy or difficult it would be to recreate the function of the human visual system. A great example of this is the 1966 MIT Summer Vision Project. Marvin Minsky and Seymour Papert, co-directors of the MIT AI Labratory, begun the summer with some ambitious goals:
 
 ![](graphics/summer_project_abstract-01.png)
 
@@ -29,8 +29,8 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
 | 0       | The Original Problem | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
 | 1       | A Little About Python and Jupyter | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
-| 2       | Edges | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
-| 3       | Image Filtering | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | - |
+| 2       | Robert's Cross | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
+| 3       | Image Filtering | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
 
 
 ## Programming Challenge

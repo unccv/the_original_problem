@@ -31,7 +31,7 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 | 1       | A Little About Python and Jupyter | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
 | 2       | Robert's Cross | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
 | 3       | Image Filtering | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
-| 4 | The Sobel–Feldman Operator | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) - | - |
+| 4 | The Sobel–Feldman Operator | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
 
 ## Programming Challenge
 

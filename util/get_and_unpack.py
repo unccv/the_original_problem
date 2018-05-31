@@ -7,16 +7,16 @@
 
 import wget, argparse, zipfile, os
 
-def get_and_unpack(url):
+def get_and_unpack(url, location='.'):
 
 	#Download file
 	print('\033[1m' + ' Downloading...this might take a little while...' + '\033[0m')
-	filename = wget.download(url)
+	filename = wget.download(url, out=location)
 
 	#Unzip
 	print('\n' +  '\033[1m' + ' Unzipping...' + '\033[0m')
 	zip_ref = zipfile.ZipFile(filename, 'r')
-	zip_ref.extractall()
+	zip_ref.extractall(path=location)
 	zip_ref.close()
 
 	#Remove zip file

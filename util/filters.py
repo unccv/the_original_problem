@@ -69,6 +69,10 @@ def make_gaussian_kernel(size, sigma):
     ''' 
     #Make kernel of zeros:
     kernel = np.zeros((size, size))
+
+    #Handle sigma = 0 case (will result in dividing by zero below if unchecked)
+    if sigma == 0:
+        return kernel 
     
     #Helpful for indexing:
     k = int((size-1)/2)

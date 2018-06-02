@@ -21,7 +21,8 @@ This repository is all about spending some time the with **the original problem*
 ![](graphics/brick_ball_cylinder_2.gif)
 
 
-The repository is broadly divided into two areas: **notebooks** and a **programming challenge**. The programming challenge is described in more detail below, and closely follows the goals setup by Minsky and Papert back in 1966. The notebooks are here to give you some help along the way. A lot has happened in the 50+ years since the summer of 1966 - and these notebooks provide an introduction to some of the more useful techniques and tools in computer vision. 
+The repository is broadly divided into two areas: **notebooks** and a **programming challenge**. The programming challenge is described in more detail below, and closely follows the goals setup by Minsky and Papert back in 1966. The notebooks are here to give you some help along the way. 
+
 
 ## Notebooks
 

@@ -2,7 +2,7 @@
 
 ![](graphics/original_mit_crew-01.png)
 
-**Computer Vision** has a very interesting history. It's roots really go all the way back to the beginning of computing and **Artifical Intelligence.** In these early days, it wasn unknown just how easy or difficult it would be to recreate the function of the human visual system. A great example of this is the 1966 MIT Summer Vision Project. Marvin Minsky and Seymour Papert, co-directors of the MIT AI Labratory, begun the summer with some ambitious goals:
+**Computer Vision** has a very interesting history. It's roots really go all the way back to the beginning of computing and **Artifical Intelligence.** In these early days, it was unknown just how easy or difficult it would be to recreate the function of the human visual system. A great example of this is the 1966 MIT Summer Vision Project. Marvin Minsky and Seymour Papert, co-directors of the MIT AI Labratory, begun the summer with some ambitious goals:
 
 ![](graphics/summer_project_abstract-01.png)
 
@@ -21,7 +21,8 @@ This repository is all about spending some time the with **the original problem*
 ![](graphics/brick_ball_cylinder_2.gif)
 
 
-The repository is broadly divided into two areas: **notebooks** and a **programming challenge**. The programming challenge is described in more detail below, and closely follows the goals setup by Minsky and Papert back in 1966. The notebooks are here to give you some help along the way. A lot has happened in the 50+ years since the summer of 1966 - and these notebooks provide an introducution to some of the more useful techniques and tools in computer vision. 
+The repository is broadly divided into two areas: **notebooks** and a **programming challenge**. The programming challenge is described in more detail below, and closely follows the goals setup by Minsky and Papert back in 1966. The notebooks are here to give you some help along the way. 
+
 
 ## Notebooks
 
@@ -32,6 +33,9 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 | 2       | [Robert's Cross](https://github.com/unccv/the_original_problem/blob/master/notebooks/Robert's%20Cross.ipynb) | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
 | 3       | [Image Filtering](https://github.com/unccv/the_original_problem/blob/master/notebooks/Image%20Filtering.ipynb) | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
 | 4 | [The Sobel–Feldman Operator](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
+
+### Videos in Notebooks
+The notebooks in this repository make frequent use of gif animations. These files are pretty large, so we don't store them on github. Instructions on downloading videos are [below](http://github.com/unccv/the_original_problem#downloading-videos).
 
 
 ## Programming Challenge

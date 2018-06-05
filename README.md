@@ -35,7 +35,7 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 | 4 | [The Sobel–Feldman Operator](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
 
 ### Videos in Notebooks
-The notebooks in this repository make frequent use of gif animations. These files are pretty large, so we don't store them on github. Instructions on downloading videos are [below](http://github.com/unccv/the_original_problem#downloading-videos).
+The notebooks in this repository make frequent use of gif animations. These files are pretty large, so we don't store them on github, and they unfortunately won't show up when viewing the notebooks via github. The ideal way to view the notebooks is to clone the repo, download the videos, and use the recommended jupyterthemes below. Instructions on downloading videos are [below](http://github.com/unccv/the_original_problem#downloading-videos).
 
 
 ## Programming Challenge
@@ -108,10 +108,14 @@ pip install -r requirements.txt
 pip install jupyterthemes
 ~~~
 
-Recommend jupyter them for presenting these notebook (type into terminal before launching notebook):
-
+Recommend jupyter them for **presenting** these notebook (type into terminal before launching notebook):
 ~~~
 jt -t grade3 -cellw=90% -fs=20 -tfs=20 -ofs=20 -dfs=20
+~~~
+
+Recommend jupyter them for **viewing** these notebook (type into terminal before launching notebook):
+~~~
+jt -t grade3 -cellw=90% -fs=14 -tfs=14 -ofs=14 -dfs=14
 ~~~
 
 ### Downloading Data

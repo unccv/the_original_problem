@@ -28,15 +28,18 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 
 | Section |   Notebook    | Recommended Reading/Viewing | Additional Reading/Viewing | Code Developed | 
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
-| 0       | [The Original Problem](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Original%20Problem.ipynb) | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
-| 1       | [A Little About Python and Jupyter](https://github.com/unccv/the_original_problem/blob/master/notebooks/A%20Little%20about%20Python%20and%20Jupyter.ipynb) | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
-| 2       | [Robert's Cross](https://github.com/unccv/the_original_problem/blob/master/notebooks/Robert's%20Cross.ipynb) | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
-| 3       | [Image Filtering](https://github.com/unccv/the_original_problem/blob/master/notebooks/Image%20Filtering.ipynb) | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
-| 4 | [The Sobel–Feldman Operator](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
-| 5 | [The Hough Transform [Part 1]](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | | [Pattern classification Section 9.2.3](http://a.co/4o6oefR),  [Bubble Chamber Viideo](https://www.youtube.com/watch?v=basLNz6frO8)| - |
-| 6 | [The Hough Transform [Part 2]](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | [How the Hough Transform was Invented](http://www.rci.rutgers.edu/~shunsun/resource/Hough_Transform.pdf) | [Use of the Hough transformation to detect lines and curves in pictures.](https://www.cse.unr.edu/~bebis/CS474/Handouts/HoughTransformPaper.pdf) | HoughAccumulator|
+| 0       | [The Original Problem](http://www.welchlabs.io/unccv/the_original_problem/notebooks/The+Original+Problem.html) | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
+| 1       | [A Little About Python and Jupyter](http://www.welchlabs.io/unccv/the_original_problem/notebooks/A+Little+about+Python+and+Jupyter.html) | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
+| 2       | [Robert's Cross](http://www.welchlabs.io/unccv/the_original_problem/notebooks/Robert%2527s+Cross%20(1).html) | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
+| 3       | [Image Filtering](http://www.welchlabs.io/unccv/the_original_problem/notebooks/Image+Filtering.html) | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
+| 4 | [The Sobel–Feldman Operator](http://www.welchlabs.io/unccv/the_original_problem/notebooks/The+Sobel%E2%80%93Feldman+Operator.html) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
+| 5 | [The Hough Transform [Part 1]](http://www.welchlabs.io/unccv/the_original_problem/notebooks/The+Hough+Transform+%255BPart+1%255D.html) | | [Pattern classification Section 9.2.3](http://a.co/4o6oefR),  [Bubble Chamber Video](https://www.youtube.com/watch?v=basLNz6frO8)| - |
+| 6 | [The Hough Transform [Part 2]](http://www.welchlabs.io/unccv/the_original_problem/notebooks/The+Hough+Transform+%255BPart+2%255D.html) | [How the Hough Transform was Invented](http://www.rci.rutgers.edu/~shunsun/resource/Hough_Transform.pdf) | [Use of the Hough transformation to detect lines and curves in pictures.](https://www.cse.unr.edu/~bebis/CS474/Handouts/HoughTransformPaper.pdf) | HoughAccumulator|
 
 ### Viewing Notebooks
+The links in the table above take you to externally hosted HTML exports of the notebooks. This works pretty well, except html won't render embedded slide shows unfortunately. The best way to view the notebooks is to clone this repo and run them yourself! Checkout the [setup instructions below](https://github.com/unccv/the_original_problem#setup).
+
+### Animations
 The notebooks in this repository make frequent use of gif animations. These files are pretty large, so we don't store them on github, and they unfortunately won't show up when viewing the notebooks via github. The ideal way to view the notebooks is to clone the repo, download the videos, and use the recommended jupyterthemes below. Instructions on downloading videos are [below](http://github.com/unccv/the_original_problem#downloading-videos).
 
 ### Note on Launching the Jupyter Notebooks

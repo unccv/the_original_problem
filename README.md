@@ -33,9 +33,14 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 | 2       | [Robert's Cross](https://github.com/unccv/the_original_problem/blob/master/notebooks/Robert's%20Cross.ipynb) | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
 | 3       | [Image Filtering](https://github.com/unccv/the_original_problem/blob/master/notebooks/Image%20Filtering.ipynb) | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
 | 4 | [The Sobel–Feldman Operator](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
+| 5 | [The Hough Transform [Part 1]](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
+| 6 | [The Hough Transform [Part 2](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
 
-### Videos in Notebooks
+### Viewing Notebooks
 The notebooks in this repository make frequent use of gif animations. These files are pretty large, so we don't store them on github, and they unfortunately won't show up when viewing the notebooks via github. The ideal way to view the notebooks is to clone the repo, download the videos, and use the recommended jupyterthemes below. Instructions on downloading videos are [below](http://github.com/unccv/the_original_problem#downloading-videos).
+
+### Note on Launching the Jupyter Notebooks
+To properly view the images and animations, please launch your jupyter notebook from the root directory of this repository. 
 
 
 ## Programming Challenge

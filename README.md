@@ -28,14 +28,22 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 
 | Section |   Notebook    | Recommended Reading/Viewing | Additional Reading/Viewing | Code Developed | 
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
-| 0       | [The Original Problem](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Original%20Problem.ipynb) | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
-| 1       | [A Little About Python and Jupyter](https://github.com/unccv/the_original_problem/blob/master/notebooks/A%20Little%20about%20Python%20and%20Jupyter.ipynb) | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
-| 2       | [Robert's Cross](https://github.com/unccv/the_original_problem/blob/master/notebooks/Robert's%20Cross.ipynb) | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
-| 3       | [Image Filtering](https://github.com/unccv/the_original_problem/blob/master/notebooks/Image%20Filtering.ipynb) | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
-| 4 | [The Sobel–Feldman Operator](https://github.com/unccv/the_original_problem/blob/master/notebooks/The%20Sobel%E2%80%93Feldman%20Operator.ipynb) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
+| 0       | [The Original Problem](http://www.welchlabs.io/unccv/the_original_problem/notebooks/top.html) | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
+| 1       | [A Little About Python and Jupyter](http://www.welchlabs.io/unccv/the_original_problem/notebooks/a_little_about_python.html) | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
+| 2       | [Robert's Cross](http://www.welchlabs.io/unccv/the_original_problem/notebooks/roberts_cross.html) | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
+| 3       | [Image Filtering](http://www.welchlabs.io/unccv/the_original_problem/notebooks/image_filtering.html) | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
+| 4 | [The Sobel–Feldman Operator](http://www.welchlabs.io/unccv/the_original_problem/notebooks/sobel.html) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
+| 5 | [The Hough Transform [Part 1]](http://www.welchlabs.io/unccv/the_original_problem/notebooks/hough_1.html) | | [Pattern classification Section 9.2.3](http://a.co/4o6oefR),  [Bubble Chamber Video](https://www.youtube.com/watch?v=basLNz6frO8)| - |
+| 6 | [The Hough Transform [Part 2]](http://www.welchlabs.io/unccv/the_original_problem/notebooks/hough_2.html) | [How the Hough Transform was Invented](http://www.rci.rutgers.edu/~shunsun/resource/Hough_Transform.pdf) | [Use of the Hough transformation to detect lines and curves in pictures.](https://www.cse.unr.edu/~bebis/CS474/Handouts/HoughTransformPaper.pdf) | HoughAccumulator|
 
-### Videos in Notebooks
-The notebooks in this repository make frequent use of gif animations. These files are pretty large, so we don't store them on github. Instructions on downloading videos are [below](http://github.com/unccv/the_original_problem#downloading-videos).
+### Viewing Notebooks
+The links in the table above take you to externally hosted HTML exports of the notebooks. This works pretty well, except html won't render embedded slide shows unfortunately. The best way to view the notebooks is to clone this repo and run them yourself! Checkout the [setup instructions below](https://github.com/unccv/the_original_problem#setup).
+
+### Animations
+The notebooks in this repository make frequent use of gif animations. These files are pretty large, so we don't store them on github, and they unfortunately won't show up when viewing the notebooks via github. The ideal way to view the notebooks is to clone the repo, download the videos, and use the recommended jupyterthemes below. Instructions on downloading videos are [below](http://github.com/unccv/the_original_problem#downloading-videos).
+
+### Note on Launching the Jupyter Notebooks
+To properly view the images and animations, please launch your jupyter notebook from the root directory of this repository. 
 
 
 ## Programming Challenge
@@ -108,10 +116,14 @@ pip install -r requirements.txt
 pip install jupyterthemes
 ~~~
 
-Recommend jupyter them for presenting these notebook (type into terminal before launching notebook):
-
+Recommend jupyter them for **presenting** these notebook (type into terminal before launching notebook):
 ~~~
 jt -t grade3 -cellw=90% -fs=20 -tfs=20 -ofs=20 -dfs=20
+~~~
+
+Recommend jupyter them for **viewing** these notebook (type into terminal before launching notebook):
+~~~
+jt -t grade3 -cellw=90% -fs=14 -tfs=14 -ofs=14 -dfs=14
 ~~~
 
 ### Downloading Data

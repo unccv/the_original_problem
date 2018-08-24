@@ -79,6 +79,6 @@ def make_gaussian_kernel(size, sigma):
     
     for i in range(size):
         for j in range(size):
-            kernel[i, j] = (1/(2*np.pi*sigma**2))*exp(-((i-k)**2 + (j-k)**2)/(2*sigma**2))
+            kernel[i, j] = (1/(2*np.pi*sigma**2))*np.exp(-((i-k)**2 + (j-k)**2)/(2*sigma**2))
             
     return kernel

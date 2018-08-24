@@ -44,8 +44,8 @@ class HoughAccumulator(object):
 
         for i in range(len(x_coords)):
             # Grab a single point
-            x = x_coords[i]  # TODO This was originally called 'scaled-x'. Verify if a method needs to used to scale
-            y = y_coords[i]  # TODO This was originally called 'scaled-y'. Verify if a method needs to used to scale
+            x = x_coords[i]  # TODO This was originally called 'x_coords_scaled'. Verify if a method needs to used to scale
+            y = y_coords[i]  # TODO This was originally called 'y_coords_scaled'. Verify if a method needs to used to scale
 
             # Actually do transform!
             curve_prho = x * np.cos(self.thetas) + y * np.sin(self.thetas)

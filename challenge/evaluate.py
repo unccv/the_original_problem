@@ -10,14 +10,17 @@ import numpy as np
 import glob
 from easydict import EasyDict
 from matplotlib.pyplot import imread
+import time
 
 #Import student's method:
 from sample_student import classify
 
+program_start = time.time()
+
 dataset_names = ['easy', 'medium_1', 'medium_2', 'hard']
 weights = [0.5, 0.2, 0.2, 0.1]
 classes = ['ball', 'brick', 'cylinder']
-data_path = '../data' #Assuming data is stored in current directory. 
+data_path = '../data' #Assuming data is one directory up. 
 
 dataset_weights = {}
 for i in range(len(dataset_names)):
@@ -25,6 +28,7 @@ for i in range(len(dataset_names)):
 
 #Store data performance data in a nested easydict:
 performance = EasyDict()
+total_time = 0
 
 #Iterate through images:
 for dataset_name in dataset_names:
@@ -39,7 +43,12 @@ for dataset_name in dataset_names:
         
         for image_path in image_paths:
             im = imread(image_path)
+            
+            start_time = time.time()
             prediction = classify(im)
+            end_time = time.time()
+            total_time += (end_time - start_time)
+            
             if image_class == prediction:
                 performance[dataset_name][image_class][0] += 1
             else:
@@ -48,6 +57,7 @@ for dataset_name in dataset_names:
         #Tally overall performance for class
         performance[dataset_name]['overall'] = performance[dataset_name]['overall'] \
                                                + performance[dataset_name][image_class]
+
 
 #Print out errors: 
 print('Fraction of Correct Predictions: ')
@@ -86,5 +96,14 @@ elif overall_accuracy >= 0.35:
 elif overall_accuracy >= 0:
    score = 4
 
+
 print("\nOverall Accuracy = ", overall_accuracy)
 print("Score = ", score)
+
+program_end = time.time()
+complete_time = program_end - program_start
+total_time =  round(total_time, 5)
+complete_time = round(complete_time, 5)
+
+print("Classification time (seconds): = ", total_time)
+print("Program completetion time (seconds): = ", complete_time)

@@ -26,10 +26,9 @@ The repository is broadly divided into two areas: **notebooks** and a **programm
 
 ## Notebooks
 
-| Section |   Notebook    | Recommended Reading/Viewing | Additional Reading/Viewing | Code Developed | 
+| Section |   Notebook    | Required Reading/Viewing | Additional Reading/Viewing | Code Developed | 
 | ------- | ------------- | --------------------------- | -------------------------- | -------------- |
-| 0       | [The Original Problem](http://www.welchlabs.io/unccv/the_original_problem/notebooks/top.html) | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
-| 1       | [A Little About Python and Jupyter](http://www.welchlabs.io/unccv/the_original_problem/notebooks/a_little_about_python.html) | | [Scientific Python Introduction](http://hplgit.github.io/bumpy/doc/pub/basics.html) | - | 
+| 1       | [The Original Problem](http://www.welchlabs.io/unccv/the_original_problem/notebooks/top.html) | [The Summer Vision Project](papers/summer_vision_project.pdf) | - | - |
 | 2       | [Robert's Cross](http://www.welchlabs.io/unccv/the_original_problem/notebooks/roberts_cross.html) | [Only Abstact and Pages 25-27 - Machine perception of 3d solids](papers/roberts_thesis.pdf)| - | convert_to_grayscale, roberts_cross |
 | 3       | [Image Filtering](http://www.welchlabs.io/unccv/the_original_problem/notebooks/image_filtering.html) | [How Blurs & Filters Work - Computerphile](https://youtu.be/C_zFhWdM4ic) | - | make_gaussian_kernel, filter_2d |
 | 4 | [The Sobel–Feldman Operator](http://www.welchlabs.io/unccv/the_original_problem/notebooks/sobel.html) | [Finding the Edges (Sobel Operator) - Computerphile](https://youtu.be/uihBwtPIBxM) | [History of Sobel](papers/history_and_def_of_sobel_operator.pdf) | - |
